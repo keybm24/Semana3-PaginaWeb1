@@ -1,0 +1,12 @@
+﻿@model Semana3_PaginaWeb1.Models.DatosContacto
+@{
+    ViewData["Title"] = "Contactenos";
+}
+
+<h1> Formulario de contacto - Gracias por contactarnos </h1>
+<h2>@Model.Nombre</h2>
+<p>Correo: 
+        @Model.Correo
+</p>
+<hr />
+<a asp-action="Index"> Regresar al inicio </a>
